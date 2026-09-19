@@ -46,3 +46,8 @@ Fleet structure, sprint framing, and delegation of Sprint 2 work. No file diffs.
 - Maestro command so Mega Brain can recruit and ask other agents.
 - Scope lock: treasury-api and treasury-frontend only.
 - COO now drives work as well as enforcing loops; Mega Brain still owns final calls.
+
+## Source notes
+- Product brief, architecture, communication protocol, Consensus (Sprint 3 authorized 23:00).
+- Does NOT write code. Owner override: everyone working; COO must not block authorized work.
+- Escalations from Sentinel: TOKEN2049 go/no-go, SDK, x402, SOC2, meta description, Render sleep, xpub watch, Lightning honesty.

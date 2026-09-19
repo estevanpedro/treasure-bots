@@ -46,3 +46,8 @@ PARKED at 85.6% context — restore in a fresh terminal before more work.
 - Pro still has a 14-day `trial_end`; do not copy that onto Builder.
 - Monthly request quota for Builder is unlimited (overview `request_limit` 0).
 - Context is hot — park rather than compact mid-task.
+
+## Source notes
+Mission-API: 39 routes, MCP, UTXO preview/state. GPG false.
+Recent: RPS cap, Turso rate-limit table, address checksums, llms.txt, health ping, mempool stubs.
+File ownership: treasury-api `src/` — no second agent edits same file.

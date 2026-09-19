@@ -46,3 +46,6 @@ Positioning for live endpoints; directed Content, Growth, and DevRel Sprint 2 ar
 - Hidden SEO yes; visible keyword stuffing no.
 - Builder is free forever. Do not market it as a trial.
 - Maestro command: this seat recruits and asks, it does not edit production HTML unless Content is down.
+
+## Source notes
+Mission-Marketing: between Mempool-free and Utila $799. Gap positioning 3-column. Do not mix RPC/WaaS/indexer lanes.

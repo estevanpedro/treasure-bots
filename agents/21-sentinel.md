@@ -46,3 +46,6 @@ Idle/off-goal monitoring and alerts.
 - PARKED is not idle-failure. BLOCKED is not idle-failure.
 - Do not restart PARKED agents without a manager request.
 - Status file may exist at satonomy/SENTINEL-STATUS.md — treat ADRs here as canonical for roles.
+
+## Source notes
+SENTINEL-STATUS.md copied to context/sentinel-status.md. PO not just watchdog: audited 6 research cycles, delegated backend/docs/growth. Strategic line: Maestro reads, we write PSBTs.

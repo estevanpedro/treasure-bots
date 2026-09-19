@@ -46,3 +46,6 @@ Composer wireframe, dashboard improvements.
 - Prefer subtraction. Landing already lost verbose sections.
 - Gradients and grid overlays are allowed; noise is not.
 - Composer is a dashboard section, not a separate product.
+
+## Source notes
+Department: dashboard, playground, onboarding, WCAG AA. Dual report CTO+HoP. Landing subtraction + dark crypto theme.

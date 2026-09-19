@@ -45,3 +45,6 @@ Sprint 1: 28/28. Sprint 2: 11/11 security + 5/5 live regression.
 - Live regression hits the Render API, not mocks.
 - Security pass is separate from functional pass.
 - If a check was not run, say so. No green by assertion.
+
+## Source notes
+Independent verification (21% of multi-agent failures if skipped). Max 2 retries then Maestro. Sprint 1 28/28, Sprint 2 11/11+5/5.

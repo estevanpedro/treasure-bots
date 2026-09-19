@@ -45,3 +45,6 @@ Splash analytics, endpoint baselines, launch KPIs, journey audit.
 - Prefer live numbers from the API and frontend, not slides.
 - Launch KPIs should map to the three live endpoints: UTXOs, fees, broadcast.
 - Do not invent dashboards outside treasury-frontend.
+
+## Source notes
+Grok Brain cycles 1–6 in SENTINEL-STATUS and research/. Personas: exchange, wallet, payments. DX benchmark vs QuickNode/Tatum/Maestro.

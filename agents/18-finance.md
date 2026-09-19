@@ -45,3 +45,6 @@ None.
 - Builder: $0, unlimited time, 2 rps.
 - Pro: $49/mo, 14-day trial then paid or downgrade to Builder.
 - Enterprise: custom. Do not invent Stripe flows without COO.
+
+## Source notes
+Not activated. Plans in product brief: Builder free 5 keys, Pro $49 20 keys, Enterprise $499 unlimited — confirm vs live RPS caps.

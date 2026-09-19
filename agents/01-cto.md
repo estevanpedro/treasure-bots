@@ -47,3 +47,7 @@ Modularization of the API surface, Phase 1 mempool integration, security milesto
 - Production DNS is operator-owned; DevOps is on HOLD for that reason.
 - SDK publish is blocked on npm token — not an engineering defect.
 - Builder plan is unlimited free with an RPS cap, not a 14-day trial.
+
+## Source notes
+Mission-CTO: modularize main.rs, Turso blocker, scalable Axum.
+Shipped after mission: modularization, mempool.rs, M1–M6, production deploy, health ping CI, llms.txt route.

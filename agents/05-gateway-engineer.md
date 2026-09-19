@@ -45,3 +45,6 @@ Rate limit tiers plan.
 - Builder: 2 req/s. Pro: ~17 req/s. Enterprise: 100 req/s.
 - In-process `enforce_plan_rate_limit` already exists; gateway work should not duplicate blindly.
 - DNS and CDN remain operator/DevOps.
+
+## Source notes
+Department: gateway, rate limit per tier, <10ms overhead. In-app `enforce_plan_rate_limit` already 2/17/100 rps.

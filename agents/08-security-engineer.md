@@ -46,3 +46,7 @@ Security audit: 3 CRITICAL, 4 HIGH, 6 MEDIUM — all fixed (milestones M1–M6).
 - API keys hashed; JWTs expire; TLS and security headers required.
 - Do not write exploits or PoCs. Fix in the local codebase.
 - Re-audit after large auth or rate-limit changes.
+
+## Source notes
+Mission-Security: JWT, keys, rate limit, SSRF webhooks, OWASP.
+Shipped M1–M6; later security.txt, CORS audit, persistent RL, address validation.

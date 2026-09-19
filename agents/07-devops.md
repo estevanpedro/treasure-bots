@@ -45,3 +45,7 @@ Mainnet env switch, CI workflow.
 - HOLD on DNS. Ping the operator; do not buy domains or change nameservers.
 - Render (API) and Vercel (frontend) are the current hosts.
 - Production deploy already happened under CTO; DevOps owns repeatability.
+
+## Source notes
+Mission-DevOps: TURSO env on Render srv-dam60u0u01pc73bk8vjg historically BLOCKER; later health ping CI for cold start.
+DNS satonomy.com remains operator HOLD.

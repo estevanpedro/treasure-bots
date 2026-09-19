@@ -4,12 +4,48 @@ Architecture Decision Records for the Satonomy Maestri agent fleet.
 
 Twenty-four agents. One Bitcoin API company. The fleet exists to ship `treasury-api` and `treasury-frontend` — and nothing else.
 
+GitHub: https://github.com/estevanpedro/treasure-bots  
+Local: `/Users/wiso/dev/satonomy/treasure-bots`
+
 ## Repos in scope
 
-- `treasury-api`
-- `treasury-frontend`
+| Repo | Path | Deploy |
+|------|------|--------|
+| treasury-api | `/Users/wiso/dev/satonomy/treasury-api` | Render `treasury-api-89vy.onrender.com` (`srv-dam60u0u01pc73bk8vjg`) |
+| treasury-frontend | `/Users/wiso/dev/satonomy/treasury-frontend` | Vercel `treasury-frontend-orpin.vercel.app` |
 
-No other Satonomy repos. Agents that wander off-repo get a Sentinel ping.
+Never: Satonomy Wallet, Satonomy App, satonomy.gitbook.io, other satonomy trees.
+
+Commits: `git -c commit.gpgsign=false`. DNS `satonomy.com` and npm token are operator.
+
+## Copied context (Maestri notes + chats)
+
+Full dumps in [`context/`](context/):
+
+| File | Source |
+|------|--------|
+| [product-brief.md](context/product-brief.md) | Maestri note PRODUCT BRIEF |
+| [architecture-overview.md](context/architecture-overview.md) | Hybrid supervisor + mesh |
+| [model-preset-mapping.md](context/model-preset-mapping.md) | Why each role is Opus / Composer / Grok |
+| [communication-protocol.md](context/communication-protocol.md) | Hub-and-spoke, Consensus, 4 cycles |
+| [failure-modes.md](context/failure-modes.md) | 42% spec / 37% coord / 21% verify |
+| [department-definitions.md](context/department-definitions.md) | Stripe/Twilio-style job specs |
+| [real-company-structures.md](context/real-company-structures.md) | Stripe, Twilio, Plaid, SendGrid, Clearbit |
+| [consensus.md](context/consensus.md) | Live Consensus note (Sprint 3 authorized) |
+| [sentinel-status.md](context/sentinel-status.md) | PO cycles 1–6 + escalations |
+| [chats-operator-grok.md](context/chats-operator-grok.md) | Operator Grok chats copied in |
+| [recent-commits.md](context/recent-commits.md) | API + frontend log snapshot |
+| [missions/](context/missions/) | Per-seat Mission notes |
+
+## Live product facts (do not contradict)
+
+- Non-custodial Bitcoin UTXO API. Competitive line: **Maestro reads UTXOs. We write PSBTs.**
+- Live today: `GET /v1/fee-estimate`, `GET /v1/utxos/{address}`, `POST /v1/broadcast`.
+- Builder: **free forever**, 2 req/s, no `trial_end`. Pro: $49/mo, 14-day `trial_end`. Enterprise: custom.
+- Auth: JWT 24h + `sk_live_*` API keys. DB: Turso/libsql.
+- Cold start on Render free: 10–30s — CI now pings `/health` every 5 min (`d44c14f`).
+- Pricing lanes: RPC (don't compete) / WaaS (Utila $799) / Indexer (Maestro $49, we write not read).
+- Sprint 3 (Consensus 23:00): production improve + competitor benchmark + 30-min loops. COO STOP void. Operator still owns npm token, DNS, launch GO.
 
 ## Hierarchy
 

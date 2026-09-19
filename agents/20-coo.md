@@ -47,3 +47,6 @@ Enforcement loops (historically 5 min / 15 min). Escalations to CEO. Now also as
 - SDK BLOCKED is npm token — escalate to operator, not to SDK Engineer.
 - DevOps HOLD is DNS — operator.
 - Inactive seats (Legal/Sales/Support/Finance) stay unrecruited until needed.
+
+## Source notes
+Consensus 23:00: Sprint 3 AUTHORIZED. COO STOP VOID. 5min driver loop ENABLED [2645e2]. 30-min self-checks. Do not block authorized work. PARKED high-context is restore, not nag — except Sprint 3 unparked the bench.

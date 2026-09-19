@@ -45,3 +45,6 @@ Quickstart spec, migration post.
 - First call should be possible in about five minutes on the free plan.
 - Auth is JWT + API keys; docs historically conflicted — prefer current API behavior.
 - Do not promise npm install until the SDK token blocker is gone.
+
+## Source notes
+Xverse Agent Wallet partnership, MCP 5 construction tools (trimmed from 7). llms.txt now exists.

@@ -45,3 +45,6 @@ None.
 - Non-custodial positioning is a legal claim as well as a product one.
 - Do not draft new policies until activated.
 - Stay inside the two repos; no off-site counsel tools.
+
+## Source notes
+Not activated. ToS/privacy exist. SOC 2 Phase 1 escalated (~5 months, $35–80K). Non-custodial reduces scope. No fake Lightning.

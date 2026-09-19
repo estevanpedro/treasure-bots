@@ -45,3 +45,6 @@ None.
 - Do not recruit until COO unparks.
 - Enterprise is custom; Pro is $49/mo; Builder is free forever.
 - No CRM work outside these two repos.
+
+## Source notes
+Not activated. Enterprise inbound via contact modal. Utila $799 is the WaaS foil; we are $49 POC + custom enterprise.

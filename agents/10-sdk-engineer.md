@@ -46,3 +46,6 @@ BLOCKED on npm token.
 - Do not invent a second SDK repo.
 - Publish is operator: no token in git, no workaround registries.
 - Keep the SDK aligned with the three live endpoints plus documented previews.
+
+## Source notes
+Mission-SDK: TS + Python, OpenAPI. BLOCKED npm token (operator). @satonomy/sdk 0.1.0 exists under treasury-frontend/sdk. Product brief once said SDK dir empty — stale.

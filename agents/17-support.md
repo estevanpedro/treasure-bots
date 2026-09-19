@@ -45,3 +45,6 @@ None.
 - Support email in product copy: support@satonomy.io.
 - Non-custodial: we cannot recover keys or signed txs.
 - Stay parked until COO says otherwise.
+
+## Source notes
+Not activated. support@satonomy.io. Cold start 10–30s is a support incident class until health ping proves otherwise.

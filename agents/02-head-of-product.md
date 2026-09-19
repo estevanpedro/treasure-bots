@@ -46,3 +46,8 @@ Sprint 2 acceptance criteria, Phase 2 PRD, user journey audit.
 - Landing should stay simple: fewer sections, live endpoints only.
 - Builder is free forever; Pro may still trial; do not describe Builder as a 14-day trial.
 - Product Analyst owns measurement; HoP owns what to measure.
+
+## Source notes
+Mission-Product: MCP, SDKs, UTXO preview, UTXO state, consolidation advisor, WebSockets.
+Sentinel Cycle 6 still wants payment webhook `address.payment`, sweep, durable API-key auth, xpub/descriptor watch.
+Do not fake Lightning.

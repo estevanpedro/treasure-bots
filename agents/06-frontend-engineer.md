@@ -46,3 +46,7 @@ Dashboard composer section, axe contrast, hero fix, sign-in UX. Landing simplify
 - Landing dropped how-it-works, FAQ, security grid, compare-plans, verbose footer.
 - Builder CTA is “Get API Key”, not a 14-day trial.
 - Verify UI in the browser when tools exist; otherwise say what was not verified.
+
+## Source notes
+Mission-Frontend: dashboard.html, docs.html, Vercel.
+Chats: simplify landing, hidden SEO, dark gradients, Builder free forever copy, restore three-steps (`676fc5e`).

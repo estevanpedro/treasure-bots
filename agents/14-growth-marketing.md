@@ -45,3 +45,6 @@ SEO audit, meta tags package.
 - Structured data already includes WebAPI, SoftwareApplication, FAQPage, HowTo.
 - Builder offer JSON-LD: unlimited free, 2 req/s, no trial expiry.
 - Canonical is the Vercel frontend URL until a custom domain ships (operator DNS).
+
+## Source notes
+SEO package, Hiro migration card, ROI calculator, vs-custody/vs-indexers. Cycle 6 BTCPay companion card still open in Sentinel list.

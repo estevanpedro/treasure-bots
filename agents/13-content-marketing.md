@@ -45,3 +45,6 @@ Launch thread (9 tweets), blog posts, PSBT copy fixes.
 - PSBT is preview/roadmap unless QA says otherwise.
 - Launch thread is the canonical X narrative.
 - Copy lives in treasury-frontend, not a new marketing site.
+
+## Source notes
+Launch thread 9 tweets, PSBT copy honesty (Coming Soon reverted then restored complexity). Docs 28 sections vs 39 routes gap.

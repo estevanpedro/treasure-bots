@@ -46,3 +46,6 @@ Docs accuracy fixes, docs SEO.
 - Three live endpoints: fee-estimate, utxos, broadcast.
 - Rate limit docs should match Builder 2 rps / Pro higher — not stale 100 rpm if the API moved.
 - Context is hot; park instead of stretching the same session.
+
+## Source notes
+Sprint 3 docs accuracy, API key quickstart, llms.txt. Stripe pattern: DX is engineering. Auth docs historically conflicted (Bearer key vs JWT).
