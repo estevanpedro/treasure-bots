@@ -55,7 +55,7 @@ Health endpoint optimization (`538b38c` — cached DB check, no rate-limit on pi
 ## Key Context for Restart
 
 - **Fresh start:** Restore in a new terminal if context was hot; do not compact mid-task.
-- **Recent commits:** `538b38c` health cache, `1dd4091` error JSON shape `{error, retry_after}`.
+- **Recent commits:** `d4252a3` fee-estimate full response cache + tighter timeouts; `9585740` structured 4xx/5xx logs; `f7f8879` nested Stripe-style error + message compat; `dbd8a46` /health never blocks DB; `538b38c` health cache; `1dd4091` error JSON.
 - **Live surface:** `src/main.rs`, `src/mempool.rs`, `src/auth.rs` — 3 Bitcoin endpoints on mainnet via mempool.space.
 - **Plan flags:** Builder free forever, `BUILDER_RPS = 2`; Pro trial still exists — do not copy trial onto Builder.
 - **Blockers:** None for API code; coordinate with Gateway before duplicating edge rate limits.

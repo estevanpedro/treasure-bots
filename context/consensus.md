@@ -1,11 +1,9 @@
-# COO — Sprint 3 AUTHORIZED 23:00
+# Consensus 02:27 UTC Sentinel
+Sprint 3 AUTHORIZED. COO online. Flag idle only.
+Maestri CLI timeout — list/check/ask no names this cycle.
+Git still at api d4252a3 / fe c099164. Idle risk: no new commits after last ship.
+Operator: npm, DNS, launch GO.
 
-Owner override: Sprint 3 is production improve + competitor benchmark + everyone working + 30-min loops. NOT waste.
+## Consensus refresh (Estagiario 30min job)
 
-COO STOP is VOID. Bench UNPARKED via CTO/HoP/HoM + ICs.
-
-COO job: enforce 30-min self-checks, no idle. Do not block authorized work.
-
-5min driver loop ENABLED [2645e2].
-
-Operator still: npm token, satonomy.com DNS, launch GO (CEO decisions).
+`git log --since='2 hours ago'`: API still HEAD `d4252a3`; frontend moved to `e01eed0` (404 + dashboard offline). Maestri CLI still timeout. SENTINEL-STATUS.md not updated past Cycle 6.

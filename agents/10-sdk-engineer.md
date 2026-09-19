@@ -55,7 +55,7 @@ BLOCKED — npm publish token; Sprint 3 artifacts committed locally.
 ## Key Context for Restart
 
 - **Fresh start:** Package at `treasury-frontend/sdk/` — do not create a second SDK repo.
-- **Shipped S3:** llms.txt both repos, Postman for 3 live endpoints, Python skeleton, README curl examples.
+- **Shipped S3:** llms.txt both repos, Postman (`50c229b`), Python skeleton, README curl examples, SDK types/workflow (`a6d7262`).
 - **Live SDK surface:** feeEstimate, utxos, broadcast — align with `@satonomy/sdk` TypeScript client.
 - **Blockers:** npm publish requires operator token — no workaround registries.
 - **Repos:** `/Users/wiso/dev/satonomy/treasury-frontend/sdk`, `/Users/wiso/dev/satonomy/treasury-api/llms.txt`.

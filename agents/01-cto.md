@@ -60,7 +60,7 @@ Coordinated Sprint 3 production hardening. Delegated to all 9 ICs. Managed stop/
 - **Rate limits:** Builder 2 rps, Pro 17 rps, Enterprise 100 rps (in-app `enforce_plan_rate_limit`).
 - **Blockers:** SDK npm publish (operator token). DevOps DNS (operator). Docs push may need manual `git push` if Angel blocks orchestrator.
 - **Repos:** `/Users/wiso/dev/satonomy/treasury-api`, `/Users/wiso/dev/satonomy/treasury-frontend` only.
-- **Fleet state:** API/DevOps/Frontend pushed S3; Docs 3 commits may be ahead of origin; Gateway/Designer proposal-only; QA headers/load test → Security.
+- **Fleet state:** API HEAD `d4252a3`, frontend HEAD `e01eed0` on origin/main. Gateway/Designer proposal-only; QA headers/load test → Security.
 
 ## Source notes
 Mission-CTO: modularize main.rs, Turso blocker, scalable Axum.

@@ -55,7 +55,7 @@ GitHub Actions health cron — pings `/health` every 5min to prevent Render cold
 
 - **Fresh start:** DNS/satonomy.com remains operator HOLD — do not change nameservers.
 - **Hosts:** Render (`treasury-api-89vy.onrender.com`), Vercel (`treasury-frontend-orpin.vercel.app`).
-- **CI:** `.github/workflows/keep-warm.yml` — 5min `/health` ping against Render.
+- **CI:** `.github/workflows/keep-warm.yml` — 5min `/health` ping against Render. Also `1ac83b8` monitor script, `1219887` `render.yaml` + `.env.example`. Frontend CI `c099164`.
 - **Blockers:** DNS operator-owned; Turso env on Render historically sensitive.
 - **Repos:** `/Users/wiso/dev/satonomy/treasury-api`, `/Users/wiso/dev/satonomy/treasury-frontend`.
 

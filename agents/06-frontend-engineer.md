@@ -58,6 +58,7 @@ Trust badges under hero (`b08e95b`). Dashboard overhaul — loading/empty/error 
 - **Key files:** `index.html`, `dashboard.html`, `dashboard.js`, `docs.html`, `style.css`, `dashboard.css`.
 - **Dashboard:** Real usage charts, API key CRUD UX, activity log wired to live API.
 - **SEO:** Meta/OG/JSON-LD only — no visible keyword stuffing.
+- **Later HEAD:** `e01eed0` 404 polish + dashboard API offline; `c099164` CI links/tests/console.error; `e6f9848` perf/a11y.
 - **Blockers:** None; verify in browser when possible.
 - **Repo:** `/Users/wiso/dev/satonomy/treasury-frontend`.
 

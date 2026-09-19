@@ -57,7 +57,7 @@ Docs badges for Phase 2 'Coming Soon' (`0869b26`). API key auth quickstart (`028
 - **Fresh start:** `/Users/wiso/dev/satonomy/docs` is OFF LIMITS — work only in treasury-frontend docs.
 - **Live endpoints (3):** GET `/v1/fee-estimate`, GET `/v1/utxos/:address`, POST `/v1/broadcast` — badge all others Coming Soon/Preview/Planned.
 - **Auth docs:** API key (`sk_live_...`) primary; JWT for dashboard/account only.
-- **Key files:** `docs.html`, `docs/sections/`, `docs.css`, `llms.txt`.
+- **Key files:** `docs.html`, `docs/sections/`, `docs.css`, `llms.txt`. Also `45c8f70` error-codes + req/s limits; API `c6132c2` CHANGELOG/CONTRIBUTING.
 - **Blockers:** Angel may block orchestrator push — use `git -c commit.gpgsign=false`; delegate push if blocked.
 - **Note:** Quickstart Step 3 documents `X-API-Key` header per COO spec; live API currently accepts `Authorization: Bearer sk_live_...`.
 

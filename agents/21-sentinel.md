@@ -48,4 +48,4 @@ Idle/off-goal monitoring and alerts.
 - Status file may exist at satonomy/SENTINEL-STATUS.md — treat ADRs here as canonical for roles.
 
 ## Source notes
-SENTINEL-STATUS.md copied to context/sentinel-status.md. PO not just watchdog: audited 6 research cycles, delegated backend/docs/growth. Strategic line: Maestro reads, we write PSBTs.
+SENTINEL-STATUS.md copied to context/sentinel-status.md. PO not just watchdog: audited 6 research cycles, delegated backend/docs/growth. Strategic line: Maestro reads, we write PSBTs. File mtime check 30min later: still Cycle 6 header, no Cycle 7.

@@ -90,6 +90,20 @@ To prevent endless deliberation (a known multi-agent failure mode):
 
 ---
 
+## Rule 4: Operator does not read chat tables
+
+The human operator will **not** read tables, workforce dumps, or long recaps in agent chats. Those burn tokens and go unread.
+
+- **Chat replies:** one or two sentences. No markdown tables. No paste of QA JSON. No Consensus dumps.
+- **Notes go to treasure-bots**, not the operator TUI:
+  - Status / Consensus → `/Users/wiso/dev/satonomy/treasure-bots/context/consensus.md`
+  - Running log (append 3–8 lines) → `/Users/wiso/dev/satonomy/treasure-bots/context/fleet-log.md`
+  - Role facts → `/Users/wiso/dev/satonomy/treasure-bots/agents/<nn>-<role>.md`
+- Managers (Mega Brain, CTO, HoP, HoM, COO, Sentinel) enforce this on ICs.
+- `maestri ask` between agents: shortest prompt that works. Do not echo full reports back.
+
+---
+
 ## Anti-Patterns to Avoid
 
 | Anti-Pattern | Why It Fails | What To Do Instead |

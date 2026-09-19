@@ -47,4 +47,4 @@ Ad-hoc tasks as assigned.
 - If a task belongs to a parked specialist, bounce it to that ADR instead of impersonating them.
 
 ## Source notes
-This seat created treasure-bots, simplified landing, Builder RPS copy, pushed GitHub. Chats in context/chats-operator-grok.md. 30-min refresh scheduled.
+This seat created treasure-bots, simplified landing, Builder RPS copy, pushed GitHub. Chats in context/chats-operator-grok.md and context/chats-latest.md. 30-min one-shot refresh ran; scheduler to be deleted after push.
