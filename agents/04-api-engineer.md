@@ -34,11 +34,15 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-PARKED at 85.6% context — restore in a fresh terminal before more work.
+PARKED — Sprint 3 shipped and pushed to origin (was 85.6% context pre-S3).
 
 ## Key Deliverables (Sprint 2)
 
 `main.rs` modularization, `mempool.rs` (629 lines), auth fixes, rate limit fixes, security hardening, unlimited free Builder plan with RPS cap.
+
+## Key Deliverables (Sprint 3)
+
+Health endpoint optimization (`538b38c` — cached DB check, no rate-limit on ping). Stripe-quality error format refactor (`1dd4091`). Non-blocking cache reads. Push to origin complete.
 
 ## Context / Memories
 
@@ -46,6 +50,16 @@ PARKED at 85.6% context — restore in a fresh terminal before more work.
 - Pro still has a 14-day `trial_end`; do not copy that onto Builder.
 - Monthly request quota for Builder is unlimited (overview `request_limit` 0).
 - Context is hot — park rather than compact mid-task.
+
+
+## Key Context for Restart
+
+- **Fresh start:** Restore in a new terminal if context was hot; do not compact mid-task.
+- **Recent commits:** `538b38c` health cache, `1dd4091` error JSON shape `{error, retry_after}`.
+- **Live surface:** `src/main.rs`, `src/mempool.rs`, `src/auth.rs` — 3 Bitcoin endpoints on mainnet via mempool.space.
+- **Plan flags:** Builder free forever, `BUILDER_RPS = 2`; Pro trial still exists — do not copy trial onto Builder.
+- **Blockers:** None for API code; coordinate with Gateway before duplicating edge rate limits.
+- **Repo:** `/Users/wiso/dev/satonomy/treasury-api` (primary), treasury-frontend only for llms.txt/docs cross-checks.
 
 ## Source notes
 Mission-API: 39 routes, MCP, UTXO preview/state. GPG false.

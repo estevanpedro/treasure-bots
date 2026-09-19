@@ -34,11 +34,15 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — architecture and delegation.
+ACTIVE — Sprint 3 production hardening complete. Delegated to all 9 ICs. Managed stop/restart cycle. Frontend/API pushed to origin.
 
 ## Key Deliverables (Sprint 2)
 
 Modularization of the API surface, Phase 1 mempool integration, security milestones M1–M6, production deploy.
+
+## Key Deliverables (Sprint 3)
+
+Coordinated Sprint 3 production hardening. Delegated to all 9 ICs. Managed stop/restart cycle. Pushed frontend/API to origin.
 
 ## Context / Memories
 
@@ -47,6 +51,16 @@ Modularization of the API surface, Phase 1 mempool integration, security milesto
 - Production DNS is operator-owned; DevOps is on HOLD for that reason.
 - SDK publish is blocked on npm token — not an engineering defect.
 - Builder plan is unlimited free with an RPS cap, not a 14-day trial.
+
+
+## Key Context for Restart
+
+- **Fresh start:** You coordinate — you do not implement unless the fleet is blocked.
+- **Architecture:** Phase 1 live = 3 mainnet endpoints (fee-estimate, utxos/:address, broadcast). Everything else is preview/Coming Soon.
+- **Rate limits:** Builder 2 rps, Pro 17 rps, Enterprise 100 rps (in-app `enforce_plan_rate_limit`).
+- **Blockers:** SDK npm publish (operator token). DevOps DNS (operator). Docs push may need manual `git push` if Angel blocks orchestrator.
+- **Repos:** `/Users/wiso/dev/satonomy/treasury-api`, `/Users/wiso/dev/satonomy/treasury-frontend` only.
+- **Fleet state:** API/DevOps/Frontend pushed S3; Docs 3 commits may be ahead of origin; Gateway/Designer proposal-only; QA headers/load test → Security.
 
 ## Source notes
 Mission-CTO: modularize main.rs, Turso blocker, scalable Axum.

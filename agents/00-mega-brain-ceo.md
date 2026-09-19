@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — orchestration only. Does not write code.
+PARKED — orchestration idle; Sprint 3 delegated via CTO/COO.
 
 ## Key Deliverables (Sprint 2)
 

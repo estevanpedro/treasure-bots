@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — on-call intern / utility.
+PARKED — no Sprint 3 assigned tasks.
 
 ## Key Deliverables (Sprint 2)
 

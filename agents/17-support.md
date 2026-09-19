@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-Not activated.
+PARKED — seat inactive.
 
 ## Key Deliverables (Sprint 2)
 

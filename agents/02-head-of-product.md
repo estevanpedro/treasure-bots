@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — roadmap and acceptance.
+PARKED — no Sprint 3 IC activity.
 
 ## Key Deliverables (Sprint 2)
 

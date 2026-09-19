@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — 30 min watchdog.
+PARKED — no Sprint 3 deliverables.
 
 ## Key Deliverables (Sprint 2)
 

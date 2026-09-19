@@ -34,7 +34,7 @@ treasury-api, treasury-frontend (ONLY)
 
 ## Current Status
 
-ACTIVE — enforcement plus drive/delegate.
+PARKED — Sprint 3 drive cycle complete; bench parked.
 
 ## Key Deliverables (Sprint 2)
 
